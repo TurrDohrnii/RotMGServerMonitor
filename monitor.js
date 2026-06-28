@@ -133,7 +133,7 @@ function color(text, code) {
   return `${code}${text}${ANSI.reset}`;
 }
 
-// Braille spinner — reads as "actively working" without being silly.
+// Braille spinner — reads as "actively working" without being silly. UwU
 const SPINNER_FRAMES = ['⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏'];
 
 // ---------- Rendering ----------
