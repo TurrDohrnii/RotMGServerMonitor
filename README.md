@@ -25,11 +25,7 @@ npm install
 `useHttps` — set `true` if your endpoints serve HTTPS, only used in `http` mode (self-signed certs are tolerated)
 `timeoutMs` — how long to wait before marking an endpoint as timed out
 `refreshSeconds` — how often the dashboard re-checks everything
-> \*\*Note on port 2050:\*\* this was carried over from the original setup
-> and I haven't independently verified it's the correct port for
-> RotMG's current game servers — that may vary by server/region or
-> have changed over time. If endpoints still show offline after
-> switching to `checkMode: "tcp"`, double-check the port first.
+
 Running the TUI dashboard (recommended)
 ```bash
 node monitor-tui.js
