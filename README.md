@@ -10,10 +10,6 @@ them as ONLINE / OFFLINE.
 ```bash
 git clone
 ```
-```bash
-npm install
-```
-
 Install the one dependency (only needed for the TUI version):
 ```bash
 npm install
