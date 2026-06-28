@@ -7,8 +7,13 @@ them as ONLINE / OFFLINE.
 `monitor.js` — Original plain-text version. No dependencies
 
 ## Setup
-`git clone`
-`npm install`
+```bash
+git clone
+```
+```bash
+npm install
+```
+
 Install the one dependency (only needed for the TUI version):
 ```bash
 npm install
