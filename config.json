@@ -1,0 +1,28 @@
+{
+  "port": 2050,
+  "checkMode": "tcp",
+  "timeoutMs": 3000,
+  "refreshSeconds": 5,
+  "path": "/",
+  "useHttps": false,
+  "endpoints": [
+    { "name": "Asia",         "host": "3.0.147.127" },
+    { "name": "Australia",   "host": "3.107.164.237" },
+    { "name": "EUEast",      "host": "18.184.218.174" },
+    { "name": "EUNorth",     "host": "18.159.133.120" },
+    { "name": "EUSouthWest", "host": "35.180.67.120" },
+    { "name": "EUWest",      "host": "15.237.60.223" },
+    { "name": "EUWest2",     "host": "52.16.86.215" },
+    { "name": "USEast",      "host": "54.234.226.24" },
+    { "name": "USEast2",     "host": "54.209.152.223" },
+    { "name": "USMidWest",   "host": "18.221.120.59" },
+    { "name": "USMidWest2",  "host": "3.140.254.133" },
+    { "name": "USNorthWest", "host": "34.238.176.119" },
+    { "name": "USSouth",     "host": "3.82.126.16" },
+    { "name": "USSouth3",    "host": "52.207.206.31" },
+    { "name": "USSouthWest", "host": "54.153.13.68" },
+    { "name": "USWest",      "host": "54.86.47.176" },
+    { "name": "USWest3",     "host": "18.144.30.153" },
+    { "name": "USWest4",     "host": "54.235.235.140" }
+  ]
+}
